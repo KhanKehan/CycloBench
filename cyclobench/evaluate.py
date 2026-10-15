@@ -131,6 +131,7 @@ def _score_q8(ans, t):
 
 _SCORERS = [_score_q1, _score_q2, _score_q3, _score_q4,
             _score_q5, _score_q6, _score_q7, _score_q8]
+_ITEM_NAMES = ["Q1", "Q2", "Q3", "Q4", "Q5", "Q6", "Q7", "Q8"]
 
 
 def evaluate(answers, seed=0, truths=None, truths_file=None):
@@ -168,10 +169,9 @@ def evaluate(answers, seed=0, truths=None, truths_file=None):
         ans = answers
 
     details, correct = [], 0
-    for sc in _SCORERS:
+    for name, sc in zip(_ITEM_NAMES, _SCORERS):
         passed = bool(sc(ans, t))
-        details.append({"item": sc.__name__.replace("_score_", "Q").upper(),
-                        "pass": passed})
+        details.append({"item": name, "pass": passed})
         correct += passed
     return {"seed": key, "reward": round(correct / 8.0, 3),
             "correct": correct, "details": details}

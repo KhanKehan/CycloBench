@@ -1,5 +1,10 @@
 # CycloBench
 
+[![CI](https://github.com/KhanKehan/CycloBench/actions/workflows/ci.yml/badge.svg)](https://github.com/KhanKehan/CycloBench/actions/workflows/ci.yml)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](LICENSE)
+[![Python](https://img.shields.io/badge/python-3.8%2B-blue.svg)](pyproject.toml)
+[![Task](https://img.shields.io/badge/Harbor-task-8A2BE2.svg)](task.toml)
+
 > **天文旋回地层学的可复现 AI 基准**
 > A reproducible, quantitatively-verifiable AI benchmark for astrochronology & cyclostratigraphy.
 
