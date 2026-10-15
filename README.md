@@ -124,7 +124,7 @@ bash solution/solve.sh        # 依赖 R 4.4+ 与 astrochron
   title  = {CycloBench: A Reproducible Benchmark for Cyclostratigraphic Analysis},
   author = {Yu, Kehan},
   year   = {2026},
-  note   = {https://github.com/<your-username>/CycloBench}
+  note   = {https://github.com/KhanKehan/CycloBench}
 }
 ```
 

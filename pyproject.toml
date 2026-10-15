@@ -14,7 +14,7 @@ keywords = ["cyclostratigraphy", "astrochronology", "milankovitch", "benchmark",
 dependencies = ["pandas", "numpy"]
 
 [project.urls]
-Homepage = "https://github.com/<your-username>/CycloBench"
+Homepage = "https://github.com/KhanKehan/CycloBench"
 
 [tool.setuptools]
 packages = ["cyclobench"]
