@@ -1,0 +1,306 @@
+{
+  "seed_0": {
+    "Q1_total_duration_Myr": 6.86,
+    "Q2_age_250m_Ma": 304.381,
+    "Q3_hiatuses_depth_m": [
+      88.5,
+      204.88,
+      304.38,
+      383.55,
+      453.69
+    ],
+    "Q3_hiatuses_duration_kyr": [
+      180,
+      480,
+      130,
+      260,
+      90
+    ],
+    "Q4_mean_SR_cm_kyr": 7.328,
+    "Q5_obliquity_kyr": 35.0,
+    "Q6": {
+      "p60_autogenic": true,
+      "p112_autogenic": true,
+      "carb_has_60kyr_peak": false,
+      "carb_has_112kyr_peak": false
+    },
+    "Q7": {
+      "exists": true,
+      "stronger_in": "CARB",
+      "GR_factor": 0.5,
+      "CARB_factor": 0.6
+    },
+    "Q8": {
+      "wellA_depth_m": 88.5,
+      "wellB_depth_m": 81.0,
+      "duration_kyr": 180
+    },
+    "_check_250m_between_h2_h3": true
+  },
+  "seed_1": {
+    "Q1_total_duration_Myr": 6.82,
+    "Q2_age_250m_Ma": 304.36,
+    "Q3_hiatuses_depth_m": [
+      90.0,
+      207.4,
+      305.1,
+      381.64,
+      452.89
+    ],
+    "Q3_hiatuses_duration_kyr": [
+      190,
+      500,
+      140,
+      250,
+      100
+    ],
+    "Q4_mean_SR_cm_kyr": 7.359,
+    "Q5_obliquity_kyr": 35.0,
+    "Q6": {
+      "p60_autogenic": true,
+      "p112_autogenic": true,
+      "carb_has_60kyr_peak": false,
+      "carb_has_112kyr_peak": false
+    },
+    "Q7": {
+      "exists": true,
+      "stronger_in": "CARB",
+      "GR_factor": 0.5,
+      "CARB_factor": 0.6
+    },
+    "Q8": {
+      "wellA_depth_m": 90.0,
+      "wellB_depth_m": 82.5,
+      "duration_kyr": 190
+    },
+    "_check_250m_between_h2_h3": true
+  },
+  "seed_2": {
+    "Q1_total_duration_Myr": 6.8,
+    "Q2_age_250m_Ma": 304.414,
+    "Q3_hiatuses_depth_m": [
+      91.5,
+      206.0,
+      301.32,
+      379.62,
+      452.72
+    ],
+    "Q3_hiatuses_duration_kyr": [
+      200,
+      520,
+      130,
+      240,
+      110
+    ],
+    "Q4_mean_SR_cm_kyr": 7.378,
+    "Q5_obliquity_kyr": 35.0,
+    "Q6": {
+      "p60_autogenic": true,
+      "p112_autogenic": true,
+      "carb_has_60kyr_peak": false,
+      "carb_has_112kyr_peak": false
+    },
+    "Q7": {
+      "exists": true,
+      "stronger_in": "CARB",
+      "GR_factor": 0.5,
+      "CARB_factor": 0.6
+    },
+    "Q8": {
+      "wellA_depth_m": 91.5,
+      "wellB_depth_m": 84.0,
+      "duration_kyr": 200
+    },
+    "_check_250m_between_h2_h3": true
+  },
+  "seed_3": {
+    "Q1_total_duration_Myr": 6.82,
+    "Q2_age_250m_Ma": 304.405,
+    "Q3_hiatuses_depth_m": [
+      88.5,
+      203.11,
+      302.61,
+      380.87,
+      453.74
+    ],
+    "Q3_hiatuses_duration_kyr": [
+      210,
+      480,
+      140,
+      230,
+      120
+    ],
+    "Q4_mean_SR_cm_kyr": 7.341,
+    "Q5_obliquity_kyr": 35.0,
+    "Q6": {
+      "p60_autogenic": true,
+      "p112_autogenic": true,
+      "carb_has_60kyr_peak": false,
+      "carb_has_112kyr_peak": false
+    },
+    "Q7": {
+      "exists": true,
+      "stronger_in": "CARB",
+      "GR_factor": 0.5,
+      "CARB_factor": 0.6
+    },
+    "Q8": {
+      "wellA_depth_m": 88.5,
+      "wellB_depth_m": 81.0,
+      "duration_kyr": 210
+    },
+    "_check_250m_between_h2_h3": true
+  },
+  "seed_4": {
+    "Q1_total_duration_Myr": 6.76,
+    "Q2_age_250m_Ma": 304.384,
+    "Q3_hiatuses_depth_m": [
+      90.0,
+      205.6,
+      303.3,
+      380.73,
+      451.09
+    ],
+    "Q3_hiatuses_duration_kyr": [
+      220,
+      500,
+      130,
+      260,
+      130
+    ],
+    "Q4_mean_SR_cm_kyr": 7.367,
+    "Q5_obliquity_kyr": 35.0,
+    "Q6": {
+      "p60_autogenic": true,
+      "p112_autogenic": true,
+      "carb_has_60kyr_peak": false,
+      "carb_has_112kyr_peak": false
+    },
+    "Q7": {
+      "exists": true,
+      "stronger_in": "CARB",
+      "GR_factor": 0.5,
+      "CARB_factor": 0.6
+    },
+    "Q8": {
+      "wellA_depth_m": 90.0,
+      "wellB_depth_m": 82.5,
+      "duration_kyr": 220
+    },
+    "_check_250m_between_h2_h3": true
+  },
+  "seed_5": {
+    "Q1_total_duration_Myr": 6.77,
+    "Q2_age_250m_Ma": 304.439,
+    "Q3_hiatuses_depth_m": [
+      91.5,
+      204.17,
+      299.49,
+      376.89,
+      449.09
+    ],
+    "Q3_hiatuses_duration_kyr": [
+      230,
+      520,
+      140,
+      250,
+      90
+    ],
+    "Q4_mean_SR_cm_kyr": 7.378,
+    "Q5_obliquity_kyr": 35.0,
+    "Q6": {
+      "p60_autogenic": true,
+      "p112_autogenic": true,
+      "carb_has_60kyr_peak": false,
+      "carb_has_112kyr_peak": false
+    },
+    "Q7": {
+      "exists": true,
+      "stronger_in": "CARB",
+      "GR_factor": 0.5,
+      "CARB_factor": 0.6
+    },
+    "Q8": {
+      "wellA_depth_m": 91.5,
+      "wellB_depth_m": 84.0,
+      "duration_kyr": 230
+    },
+    "_check_250m_between_h2_h3": true
+  },
+  "seed_6": {
+    "Q1_total_duration_Myr": 6.81,
+    "Q2_age_250m_Ma": 304.428,
+    "Q3_hiatuses_depth_m": [
+      88.5,
+      201.34,
+      300.84,
+      380.01,
+      451.97
+    ],
+    "Q3_hiatuses_duration_kyr": [
+      240,
+      480,
+      130,
+      240,
+      100
+    ],
+    "Q4_mean_SR_cm_kyr": 7.346,
+    "Q5_obliquity_kyr": 35.0,
+    "Q6": {
+      "p60_autogenic": true,
+      "p112_autogenic": true,
+      "carb_has_60kyr_peak": false,
+      "carb_has_112kyr_peak": false
+    },
+    "Q7": {
+      "exists": true,
+      "stronger_in": "CARB",
+      "GR_factor": 0.5,
+      "CARB_factor": 0.6
+    },
+    "Q8": {
+      "wellA_depth_m": 88.5,
+      "wellB_depth_m": 81.0,
+      "duration_kyr": 240
+    },
+    "_check_250m_between_h2_h3": true
+  },
+  "seed_7": {
+    "Q1_total_duration_Myr": 6.77,
+    "Q2_age_250m_Ma": 304.407,
+    "Q3_hiatuses_depth_m": [
+      90.0,
+      203.8,
+      301.5,
+      378.04,
+      451.07
+    ],
+    "Q3_hiatuses_duration_kyr": [
+      250,
+      500,
+      140,
+      230,
+      110
+    ],
+    "Q4_mean_SR_cm_kyr": 7.376,
+    "Q5_obliquity_kyr": 35.0,
+    "Q6": {
+      "p60_autogenic": true,
+      "p112_autogenic": true,
+      "carb_has_60kyr_peak": false,
+      "carb_has_112kyr_peak": false
+    },
+    "Q7": {
+      "exists": true,
+      "stronger_in": "CARB",
+      "GR_factor": 0.5,
+      "CARB_factor": 0.6
+    },
+    "Q8": {
+      "wellA_depth_m": 90.0,
+      "wellB_depth_m": 82.5,
+      "duration_kyr": 250
+    },
+    "_check_250m_between_h2_h3": true
+  }
+}

@@ -1,0 +1,31 @@
+# task.toml
+# Harbor 任务配置（字段名以 Harbor 官方规范版本为准，交付前核对）
+
+name = "cyclostratigraphy-lpia-dual-well"
+version = "3.0"
+discipline = "地球与环境科学"
+
+[cpus]
+min = 8
+
+[memory]
+min_gb = 16
+
+[timeout]
+solve_s = 3600
+score_s = 300
+
+[network]
+enabled = false
+note = "解题环境断网；R + astrochron 及全部依赖已打包在镜像中"
+
+[data]
+seed_count = 8
+layout = "data/seed_{k}/well_A.csv, data/seed_{k}/well_B.csv"
+
+[output]
+answer_path = "/workspace/answers.json"
+figures_path = "/workspace/figures/"
+
+[reward]
+target_file = "/logs/verifier/reward.txt"

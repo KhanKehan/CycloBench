@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "cyclobench"
+version = "0.1.0"
+description = "A reproducible, quantitatively-verifiable benchmark for cyclostratigraphic analysis"
+readme = "README.md"
+requires-python = ">=3.8"
+license = { text = "MIT" }
+authors = [{ name = "Kehan Yu" }]
+keywords = ["cyclostratigraphy", "astrochronology", "milankovitch", "benchmark", "geoscience"]
+dependencies = ["pandas", "numpy"]
+
+[project.urls]
+Homepage = "https://github.com/<your-username>/CycloBench"
+
+[tool.setuptools]
+packages = ["cyclobench"]
