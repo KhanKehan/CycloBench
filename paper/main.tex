@@ -370,7 +370,11 @@ parameters (e.g., 0.10 Myr on a 5--8 Myr record, 3 m on hiatus depth). A legitim
 that estimates the sedimentation rate locally can miss these bands even when its analysis is
 sound: our reference solver passes Q6 and Q7 almost always but never meets the numeric
 tolerances on Q1--Q4. The current benchmark therefore measures exact recovery, not approximate
-agreement, and part of the near-zero model scores reflects that choice. Partial-credit
+agreement, and part of the near-zero model scores reflects that choice. Two further
+caveats: Q5 (the obliquity period) can be answered from prior knowledge of the 300-Ma
+value, so a pass there is not evidence of data analysis; and the tool condition uses a
+restricted sandbox with three turns and a truncated output, which may understate what a
+better instrumented agent could do. Partial-credit
 variants and tolerance sweeps are the obvious next step.
 
 Within these limits, \method\ shows that verifiable scientific workflows can be measured with
