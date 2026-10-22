@@ -1,0 +1,2 @@
+{"iid": "test_002", "answer": null, "score": {"total": 0.0}, "error": "RuntimeError(\"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"}
+{"iid": "test_000", "answer": null, "score": {"total": 0.0}, "error": "RuntimeError(\"ConnectionError(ProtocolError('Connection aborted.', RemoteDisconnected('Remote end closed connection without response')))\")"}

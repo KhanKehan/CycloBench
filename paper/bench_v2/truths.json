@@ -1,0 +1,3050 @@
+{
+ "train_000": {
+  "Q1_total_duration_Myr": 5.72,
+  "Q2_age_250m_Ma": 304.474,
+  "Q3_hiatuses_depth_m": [
+   82.6,
+   114.07,
+   157.2,
+   236.59
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   130.0,
+   325.0,
+   226.0,
+   267.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.055,
+  "Q5_obliquity_kyr": 36.2,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.31,
+   "CARB_factor": 0.53
+  },
+  "Q8": {
+   "wellA_depth_m": 157.2,
+   "wellB_depth_m": 171.1,
+   "duration_kyr": 226.0
+  },
+  "meta": {
+   "seed": 401870,
+   "depth_A_m": 346.3,
+   "depth_B_m": 400.9,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 4,
+   "sr_base": 7.07,
+   "noise_gr": 0.101,
+   "q6_evidence": {
+    "rel60_gr": 0.0062,
+    "rel60_carb": 0.0277,
+    "rel112_gr": 0.0112,
+    "rel112_carb": 0.0268
+   },
+   "split": "train"
+  }
+ },
+ "train_001": {
+  "Q1_total_duration_Myr": 5.5,
+  "Q2_age_250m_Ma": 304.304,
+  "Q3_hiatuses_depth_m": [
+   50.73,
+   82.15,
+   178.48,
+   233.61,
+   280.56
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   356.0,
+   224.0,
+   301.0,
+   98.0,
+   188.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.058,
+  "Q5_obliquity_kyr": 33.4,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.62,
+   "CARB_factor": 0.46
+  },
+  "Q8": {
+   "wellA_depth_m": 280.56,
+   "wellB_depth_m": 399.91,
+   "duration_kyr": 188.0
+  },
+  "meta": {
+   "seed": 841432,
+   "depth_A_m": 333.2,
+   "depth_B_m": 442.4,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 2,
+   "sr_base": 7.37,
+   "noise_gr": 0.139,
+   "q6_evidence": {
+    "rel60_gr": 2.8869,
+    "rel60_carb": 0.042,
+    "rel112_gr": 3.7855,
+    "rel112_carb": 0.0361
+   },
+   "split": "train"
+  }
+ },
+ "train_002": {
+  "Q1_total_duration_Myr": 5.39,
+  "Q2_age_250m_Ma": 303.658,
+  "Q3_hiatuses_depth_m": [
+   56.18,
+   103.96,
+   205.96,
+   344.72
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   194.0,
+   227.0,
+   338.0,
+   186.0
+  ],
+  "Q4_mean_SR_cm_kyr": 7.27,
+  "Q5_obliquity_kyr": 32.0,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.4,
+   "CARB_factor": 0.62
+  },
+  "Q8": {
+   "wellA_depth_m": 205.96,
+   "wellB_depth_m": 232.42,
+   "duration_kyr": 338.0
+  },
+  "meta": {
+   "seed": 92258,
+   "depth_A_m": 391.8,
+   "depth_B_m": 434.5,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 3,
+   "sr_base": 8.31,
+   "noise_gr": 0.133,
+   "q6_evidence": {
+    "rel60_gr": 2.6513,
+    "rel60_carb": 3.7537,
+    "rel112_gr": 1.4303,
+    "rel112_carb": 2.1934
+   },
+   "split": "train"
+  }
+ },
+ "train_003": {
+  "Q1_total_duration_Myr": 7.14,
+  "Q2_age_250m_Ma": 303.528,
+  "Q3_hiatuses_depth_m": [
+   123.8,
+   197.53,
+   424.56
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   263.0,
+   104.0,
+   150.0
+  ],
+  "Q4_mean_SR_cm_kyr": 7.044,
+  "Q5_obliquity_kyr": 35.6,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.35,
+   "CARB_factor": 0.61
+  },
+  "Q8": {
+   "wellA_depth_m": 123.8,
+   "wellB_depth_m": 137.56,
+   "duration_kyr": 263.0
+  },
+  "meta": {
+   "seed": 830196,
+   "depth_A_m": 503.0,
+   "depth_B_m": 521.5,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 4,
+   "sr_base": 8.24,
+   "noise_gr": 0.133,
+   "q6_evidence": {
+    "rel60_gr": 3.4171,
+    "rel60_carb": 0.0217,
+    "rel112_gr": 1.9838,
+    "rel112_carb": 0.027
+   },
+   "split": "train"
+  }
+ },
+ "train_004": {
+  "Q1_total_duration_Myr": 6.4,
+  "Q2_age_250m_Ma": 303.717,
+  "Q3_hiatuses_depth_m": [
+   166.1,
+   289.18,
+   368.99
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   242.0,
+   94.0,
+   370.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.539,
+  "Q5_obliquity_kyr": 32.2,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.32,
+   "CARB_factor": 0.59
+  },
+  "Q8": {
+   "wellA_depth_m": 289.18,
+   "wellB_depth_m": 333.53,
+   "duration_kyr": 94.0
+  },
+  "meta": {
+   "seed": 21847,
+   "depth_A_m": 418.5,
+   "depth_B_m": 503.4,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 2,
+   "sr_base": 7.11,
+   "noise_gr": 0.116,
+   "q6_evidence": {
+    "rel60_gr": 1.2715,
+    "rel60_carb": 0.005,
+    "rel112_gr": 1.2223,
+    "rel112_carb": 0.0103
+   },
+   "split": "train"
+  }
+ },
+ "train_005": {
+  "Q1_total_duration_Myr": 5.48,
+  "Q2_age_250m_Ma": 304.524,
+  "Q3_hiatuses_depth_m": [
+   50.99,
+   80.38,
+   127.74
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   330.0,
+   313.0,
+   164.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.682,
+  "Q5_obliquity_kyr": 32.2,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.32,
+   "CARB_factor": 0.62
+  },
+  "Q8": {
+   "wellA_depth_m": 80.38,
+   "wellB_depth_m": 116.19,
+   "duration_kyr": 313.0
+  },
+  "meta": {
+   "seed": 949185,
+   "depth_A_m": 311.4,
+   "depth_B_m": 378.7,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 2,
+   "sr_base": 6.84,
+   "noise_gr": 0.112,
+   "q6_evidence": {
+    "rel60_gr": 4.3422,
+    "rel60_carb": 0.0133,
+    "rel112_gr": 4.7252,
+    "rel112_carb": 0.0085
+   },
+   "split": "train"
+  }
+ },
+ "train_006": {
+  "Q1_total_duration_Myr": 5.67,
+  "Q2_age_250m_Ma": 303.8,
+  "Q3_hiatuses_depth_m": [
+   49.72,
+   110.24,
+   195.28,
+   287.87
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   255.0,
+   82.0,
+   115.0,
+   191.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.472,
+  "Q5_obliquity_kyr": 35.4,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.64,
+   "CARB_factor": 0.34
+  },
+  "Q8": {
+   "wellA_depth_m": 195.28,
+   "wellB_depth_m": 220.12,
+   "duration_kyr": 115.0
+  },
+  "meta": {
+   "seed": 433211,
+   "depth_A_m": 367.0,
+   "depth_B_m": 412.8,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 4,
+   "sr_base": 7.59,
+   "noise_gr": 0.102,
+   "q6_evidence": {
+    "rel60_gr": 1.259,
+    "rel60_carb": 1.9634,
+    "rel112_gr": 1.3605,
+    "rel112_carb": 2.0593
+   },
+   "split": "train"
+  }
+ },
+ "train_007": {
+  "Q1_total_duration_Myr": 6.79,
+  "Q2_age_250m_Ma": 304.121,
+  "Q3_hiatuses_depth_m": [
+   109.22,
+   199.33,
+   223.41,
+   268.16,
+   341.31
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   242.0,
+   281.0,
+   121.0,
+   84.0,
+   182.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.207,
+  "Q5_obliquity_kyr": 35.8,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.42,
+   "CARB_factor": 0.58
+  },
+  "Q8": {
+   "wellA_depth_m": 223.41,
+   "wellB_depth_m": 243.58,
+   "duration_kyr": 121.0
+  },
+  "meta": {
+   "seed": 54317,
+   "depth_A_m": 421.4,
+   "depth_B_m": 476.5,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 4,
+   "sr_base": 7.27,
+   "noise_gr": 0.093,
+   "q6_evidence": {
+    "rel60_gr": 3.1637,
+    "rel60_carb": 0.0127,
+    "rel112_gr": 0.7784,
+    "rel112_carb": 0.0107
+   },
+   "split": "train"
+  }
+ },
+ "train_008": {
+  "Q1_total_duration_Myr": 5.67,
+  "Q2_age_250m_Ma": 304.671,
+  "Q3_hiatuses_depth_m": [
+   36.27,
+   83.31,
+   142.56,
+   185.47,
+   230.7
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   183.0,
+   186.0,
+   371.0,
+   164.0,
+   158.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.484,
+  "Q5_obliquity_kyr": 32.9,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.65,
+   "CARB_factor": 0.45
+  },
+  "Q8": {
+   "wellA_depth_m": 230.7,
+   "wellB_depth_m": 301.44,
+   "duration_kyr": 158.0
+  },
+  "meta": {
+   "seed": 898556,
+   "depth_A_m": 310.9,
+   "depth_B_m": 364.4,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 4,
+   "sr_base": 7.17,
+   "noise_gr": 0.129,
+   "q6_evidence": {
+    "rel60_gr": 1.3907,
+    "rel60_carb": 0.0069,
+    "rel112_gr": 1.2663,
+    "rel112_carb": 0.0085
+   },
+   "split": "train"
+  }
+ },
+ "train_009": {
+  "Q1_total_duration_Myr": 6.8,
+  "Q2_age_250m_Ma": 303.737,
+  "Q3_hiatuses_depth_m": [
+   44.58,
+   175.37,
+   269.13,
+   393.44
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   329.0,
+   95.0,
+   279.0,
+   303.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.486,
+  "Q5_obliquity_kyr": 36.2,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.37,
+   "CARB_factor": 0.59
+  },
+  "Q8": {
+   "wellA_depth_m": 393.44,
+   "wellB_depth_m": 451.08,
+   "duration_kyr": 303.0
+  },
+  "meta": {
+   "seed": 533610,
+   "depth_A_m": 441.0,
+   "depth_B_m": 501.4,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 4,
+   "sr_base": 7.44,
+   "noise_gr": 0.127,
+   "q6_evidence": {
+    "rel60_gr": 1.8071,
+    "rel60_carb": 0.0143,
+    "rel112_gr": 1.143,
+    "rel112_carb": 0.0202
+   },
+   "split": "train"
+  }
+ },
+ "train_010": {
+  "Q1_total_duration_Myr": 5.15,
+  "Q2_age_250m_Ma": 304.365,
+  "Q3_hiatuses_depth_m": [
+   47.23,
+   173.64,
+   231.06
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   314.0,
+   285.0,
+   231.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.831,
+  "Q5_obliquity_kyr": 36.1,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.48,
+   "CARB_factor": 0.57
+  },
+  "Q8": {
+   "wellA_depth_m": 173.64,
+   "wellB_depth_m": 198.93,
+   "duration_kyr": 285.0
+  },
+  "meta": {
+   "seed": 371535,
+   "depth_A_m": 300.3,
+   "depth_B_m": 368.2,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 2,
+   "sr_base": 7.39,
+   "noise_gr": 0.15,
+   "q6_evidence": {
+    "rel60_gr": 4.1254,
+    "rel60_carb": 0.0225,
+    "rel112_gr": 2.7085,
+    "rel112_carb": 0.0191
+   },
+   "split": "train"
+  }
+ },
+ "train_011": {
+  "Q1_total_duration_Myr": 6.8,
+  "Q2_age_250m_Ma": 303.311,
+  "Q3_hiatuses_depth_m": [
+   290.17,
+   330.48,
+   383.65
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   86.0,
+   306.0,
+   177.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.698,
+  "Q5_obliquity_kyr": 35.3,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.35,
+   "CARB_factor": 0.53
+  },
+  "Q8": {
+   "wellA_depth_m": 290.17,
+   "wellB_depth_m": 294.31,
+   "duration_kyr": 86.0
+  },
+  "meta": {
+   "seed": 388121,
+   "depth_A_m": 455.5,
+   "depth_B_m": 518.1,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 4,
+   "sr_base": 7.5,
+   "noise_gr": 0.155,
+   "q6_evidence": {
+    "rel60_gr": 1.3639,
+    "rel60_carb": 0.0091,
+    "rel112_gr": 1.8221,
+    "rel112_carb": 0.0093
+   },
+   "split": "train"
+  }
+ },
+ "train_012": {
+  "Q1_total_duration_Myr": 5.97,
+  "Q2_age_250m_Ma": 303.798,
+  "Q3_hiatuses_depth_m": [
+   104.15,
+   167.15,
+   297.15,
+   333.27
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   157.0,
+   199.0,
+   250.0,
+   134.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.565,
+  "Q5_obliquity_kyr": 34.5,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.59,
+   "CARB_factor": 0.31
+  },
+  "Q8": {
+   "wellA_depth_m": 333.27,
+   "wellB_depth_m": 410.97,
+   "duration_kyr": 134.0
+  },
+  "meta": {
+   "seed": 202531,
+   "depth_A_m": 391.9,
+   "depth_B_m": 475.9,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 2,
+   "sr_base": 6.82,
+   "noise_gr": 0.09,
+   "q6_evidence": {
+    "rel60_gr": 0.003,
+    "rel60_carb": 0.0107,
+    "rel112_gr": 0.003,
+    "rel112_carb": 0.0101
+   },
+   "split": "train"
+  }
+ },
+ "train_013": {
+  "Q1_total_duration_Myr": 7.13,
+  "Q2_age_250m_Ma": 303.8,
+  "Q3_hiatuses_depth_m": [
+   71.46,
+   134.51,
+   172.04,
+   263.39,
+   361.75
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   306.0,
+   254.0,
+   333.0,
+   219.0,
+   237.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.826,
+  "Q5_obliquity_kyr": 33.2,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.3,
+   "CARB_factor": 0.68
+  },
+  "Q8": {
+   "wellA_depth_m": 361.75,
+   "wellB_depth_m": 445.47,
+   "duration_kyr": 237.0
+  },
+  "meta": {
+   "seed": 9013,
+   "depth_A_m": 486.7,
+   "depth_B_m": 577.6,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 3,
+   "sr_base": 8.43,
+   "noise_gr": 0.099,
+   "q6_evidence": {
+    "rel60_gr": 3.6077,
+    "rel60_carb": 5.9905,
+    "rel112_gr": 1.4128,
+    "rel112_carb": 2.4954
+   },
+   "split": "train"
+  }
+ },
+ "train_014": {
+  "Q1_total_duration_Myr": 6.08,
+  "Q2_age_250m_Ma": 303.647,
+  "Q3_hiatuses_depth_m": [
+   127.17,
+   197.8,
+   259.37,
+   365.6
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   165.0,
+   359.0,
+   294.0,
+   208.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.577,
+  "Q5_obliquity_kyr": 33.7,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.47,
+   "CARB_factor": 0.6
+  },
+  "Q8": {
+   "wellA_depth_m": 197.8,
+   "wellB_depth_m": 234.0,
+   "duration_kyr": 359.0
+  },
+  "meta": {
+   "seed": 628438,
+   "depth_A_m": 399.9,
+   "depth_B_m": 477.7,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 2,
+   "sr_base": 8.16,
+   "noise_gr": 0.156,
+   "q6_evidence": {
+    "rel60_gr": 1.324,
+    "rel60_carb": 0.016,
+    "rel112_gr": 1.4847,
+    "rel112_carb": 0.0183
+   },
+   "split": "train"
+  }
+ },
+ "train_015": {
+  "Q1_total_duration_Myr": 6.09,
+  "Q2_age_250m_Ma": 303.889,
+  "Q3_hiatuses_depth_m": [
+   102.36,
+   148.64,
+   254.7,
+   326.5
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   260.0,
+   189.0,
+   233.0,
+   374.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.954,
+  "Q5_obliquity_kyr": 32.3,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.33,
+   "CARB_factor": 0.52
+  },
+  "Q8": {
+   "wellA_depth_m": 254.7,
+   "wellB_depth_m": 271.66,
+   "duration_kyr": 233.0
+  },
+  "meta": {
+   "seed": 761792,
+   "depth_A_m": 362.6,
+   "depth_B_m": 416.1,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 4,
+   "sr_base": 7.4,
+   "noise_gr": 0.138,
+   "q6_evidence": {
+    "rel60_gr": 1.2488,
+    "rel60_carb": 1.9753,
+    "rel112_gr": 1.3078,
+    "rel112_carb": 2.0724
+   },
+   "split": "train"
+  }
+ },
+ "train_016": {
+  "Q1_total_duration_Myr": 5.1,
+  "Q2_age_250m_Ma": 304.642,
+  "Q3_hiatuses_depth_m": [
+   39.01,
+   117.62,
+   136.52,
+   185.59
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   351.0,
+   364.0,
+   160.0,
+   86.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.527,
+  "Q5_obliquity_kyr": 32.7,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.31,
+   "CARB_factor": 0.59
+  },
+  "Q8": {
+   "wellA_depth_m": 117.62,
+   "wellB_depth_m": 108.46,
+   "duration_kyr": 364.0
+  },
+  "meta": {
+   "seed": 277562,
+   "depth_A_m": 281.9,
+   "depth_B_m": 336.8,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 4,
+   "sr_base": 7.25,
+   "noise_gr": 0.091,
+   "q6_evidence": {
+    "rel60_gr": 3.3136,
+    "rel60_carb": 5.1999,
+    "rel112_gr": 1.9798,
+    "rel112_carb": 2.7957
+   },
+   "split": "train"
+  }
+ },
+ "train_017": {
+  "Q1_total_duration_Myr": 6.48,
+  "Q2_age_250m_Ma": 303.665,
+  "Q3_hiatuses_depth_m": [
+   168.92,
+   235.9,
+   287.15,
+   321.26,
+   344.36
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   104.0,
+   284.0,
+   321.0,
+   331.0,
+   350.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.858,
+  "Q5_obliquity_kyr": 34.1,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.69,
+   "CARB_factor": 0.46
+  },
+  "Q8": {
+   "wellA_depth_m": 287.15,
+   "wellB_depth_m": 322.57,
+   "duration_kyr": 321.0
+  },
+  "meta": {
+   "seed": 596204,
+   "depth_A_m": 379.6,
+   "depth_B_m": 457.6,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 3,
+   "sr_base": 7.61,
+   "noise_gr": 0.15,
+   "q6_evidence": {
+    "rel60_gr": 4.1512,
+    "rel60_carb": 5.5662,
+    "rel112_gr": 2.1495,
+    "rel112_carb": 2.7199
+   },
+   "split": "train"
+  }
+ },
+ "train_018": {
+  "Q1_total_duration_Myr": 7.14,
+  "Q2_age_250m_Ma": 304.117,
+  "Q3_hiatuses_depth_m": [
+   181.83,
+   270.83,
+   328.12
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   373.0,
+   370.0,
+   337.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.511,
+  "Q5_obliquity_kyr": 33.7,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.37,
+   "CARB_factor": 0.57
+  },
+  "Q8": {
+   "wellA_depth_m": 181.83,
+   "wellB_depth_m": 206.21,
+   "duration_kyr": 373.0
+  },
+  "meta": {
+   "seed": 221181,
+   "depth_A_m": 393.5,
+   "depth_B_m": 477.7,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 2,
+   "sr_base": 6.71,
+   "noise_gr": 0.151,
+   "q6_evidence": {
+    "rel60_gr": 6.023,
+    "rel60_carb": 9.2297,
+    "rel112_gr": 1.9696,
+    "rel112_carb": 3.3156
+   },
+   "split": "train"
+  }
+ },
+ "train_019": {
+  "Q1_total_duration_Myr": 5.22,
+  "Q2_age_250m_Ma": 304.756,
+  "Q3_hiatuses_depth_m": [
+   73.67,
+   142.04,
+   202.99,
+   227.73
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   308.0,
+   325.0,
+   253.0,
+   356.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.358,
+  "Q5_obliquity_kyr": 34.8,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.31,
+   "CARB_factor": 0.59
+  },
+  "Q8": {
+   "wellA_depth_m": 73.67,
+   "wellB_depth_m": 82.44,
+   "duration_kyr": 308.0
+  },
+  "meta": {
+   "seed": 695403,
+   "depth_A_m": 279.7,
+   "depth_B_m": 356.4,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 3,
+   "sr_base": 7.53,
+   "noise_gr": 0.1,
+   "q6_evidence": {
+    "rel60_gr": 3.063,
+    "rel60_carb": 3.935,
+    "rel112_gr": 0.9951,
+    "rel112_carb": 1.3618
+   },
+   "split": "train"
+  }
+ },
+ "train_020": {
+  "Q1_total_duration_Myr": 7.46,
+  "Q2_age_250m_Ma": 303.488,
+  "Q3_hiatuses_depth_m": [
+   63.88,
+   171.29,
+   284.4
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   193.0,
+   285.0,
+   176.0
+  ],
+  "Q4_mean_SR_cm_kyr": 8.07,
+  "Q5_obliquity_kyr": 34.6,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.55,
+   "CARB_factor": 0.44
+  },
+  "Q8": {
+   "wellA_depth_m": 63.88,
+   "wellB_depth_m": 70.87,
+   "duration_kyr": 193.0
+  },
+  "meta": {
+   "seed": 604428,
+   "depth_A_m": 602.0,
+   "depth_B_m": 689.7,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 2,
+   "sr_base": 8.13,
+   "noise_gr": 0.157,
+   "q6_evidence": {
+    "rel60_gr": 2.1376,
+    "rel60_carb": 3.1784,
+    "rel112_gr": 1.505,
+    "rel112_carb": 2.1432
+   },
+   "split": "train"
+  }
+ },
+ "train_021": {
+  "Q1_total_duration_Myr": 7.8,
+  "Q2_age_250m_Ma": 304.11,
+  "Q3_hiatuses_depth_m": [
+   60.99,
+   98.27,
+   277.77,
+   330.27,
+   353.7
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   254.0,
+   271.0,
+   143.0,
+   372.0,
+   357.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.397,
+  "Q5_obliquity_kyr": 35.8,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.31,
+   "CARB_factor": 0.56
+  },
+  "Q8": {
+   "wellA_depth_m": 330.27,
+   "wellB_depth_m": 379.04,
+   "duration_kyr": 372.0
+  },
+  "meta": {
+   "seed": 769818,
+   "depth_A_m": 421.0,
+   "depth_B_m": 516.7,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 3,
+   "sr_base": 6.94,
+   "noise_gr": 0.128,
+   "q6_evidence": {
+    "rel60_gr": 4.9834,
+    "rel60_carb": 0.0123,
+    "rel112_gr": 1.4117,
+    "rel112_carb": 0.0063
+   },
+   "split": "train"
+  }
+ },
+ "train_022": {
+  "Q1_total_duration_Myr": 7.01,
+  "Q2_age_250m_Ma": 303.283,
+  "Q3_hiatuses_depth_m": [
+   157.52,
+   251.35,
+   345.68,
+   363.08,
+   390.22
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   152.0,
+   193.0,
+   340.0,
+   319.0,
+   259.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.206,
+  "Q5_obliquity_kyr": 33.9,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.42,
+   "CARB_factor": 0.61
+  },
+  "Q8": {
+   "wellA_depth_m": 345.68,
+   "wellB_depth_m": 369.4,
+   "duration_kyr": 340.0
+  },
+  "meta": {
+   "seed": 859040,
+   "depth_A_m": 435.0,
+   "depth_B_m": 532.1,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 3,
+   "sr_base": 7.98,
+   "noise_gr": 0.145,
+   "q6_evidence": {
+    "rel60_gr": 0.0131,
+    "rel60_carb": 0.0207,
+    "rel112_gr": 0.0108,
+    "rel112_carb": 0.0194
+   },
+   "split": "train"
+  }
+ },
+ "train_023": {
+  "Q1_total_duration_Myr": 5.07,
+  "Q2_age_250m_Ma": 303.523,
+  "Q3_hiatuses_depth_m": [
+   94.58,
+   185.95,
+   327.77
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   233.0,
+   143.0,
+   88.0
+  ],
+  "Q4_mean_SR_cm_kyr": 7.448,
+  "Q5_obliquity_kyr": 35.6,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.59,
+   "CARB_factor": 0.47
+  },
+  "Q8": {
+   "wellA_depth_m": 94.58,
+   "wellB_depth_m": 105.45,
+   "duration_kyr": 233.0
+  },
+  "meta": {
+   "seed": 128822,
+   "depth_A_m": 377.6,
+   "depth_B_m": 413.3,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 2,
+   "sr_base": 7.76,
+   "noise_gr": 0.117,
+   "q6_evidence": {
+    "rel60_gr": 2.3597,
+    "rel60_carb": 3.6152,
+    "rel112_gr": 3.7024,
+    "rel112_carb": 5.7396
+   },
+   "split": "train"
+  }
+ },
+ "train_024": {
+  "Q1_total_duration_Myr": 7.73,
+  "Q2_age_250m_Ma": 302.957,
+  "Q3_hiatuses_depth_m": [
+   283.75,
+   470.33,
+   503.34
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   248.0,
+   337.0,
+   137.0
+  ],
+  "Q4_mean_SR_cm_kyr": 7.297,
+  "Q5_obliquity_kyr": 34.2,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.46,
+   "CARB_factor": 0.58
+  },
+  "Q8": {
+   "wellA_depth_m": 283.75,
+   "wellB_depth_m": 292.78,
+   "duration_kyr": 248.0
+  },
+  "meta": {
+   "seed": 581909,
+   "depth_A_m": 564.1,
+   "depth_B_m": 620.5,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 3,
+   "sr_base": 8.41,
+   "noise_gr": 0.15,
+   "q6_evidence": {
+    "rel60_gr": 3.258,
+    "rel60_carb": 0.0078,
+    "rel112_gr": 1.2814,
+    "rel112_carb": 0.0054
+   },
+   "split": "train"
+  }
+ },
+ "train_025": {
+  "Q1_total_duration_Myr": 5.43,
+  "Q2_age_250m_Ma": 303.669,
+  "Q3_hiatuses_depth_m": [
+   89.14,
+   260.61,
+   323.88
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   174.0,
+   131.0,
+   125.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.758,
+  "Q5_obliquity_kyr": 35.3,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.32,
+   "CARB_factor": 0.59
+  },
+  "Q8": {
+   "wellA_depth_m": 89.14,
+   "wellB_depth_m": 81.11,
+   "duration_kyr": 174.0
+  },
+  "meta": {
+   "seed": 65923,
+   "depth_A_m": 367.0,
+   "depth_B_m": 384.8,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 4,
+   "sr_base": 7.08,
+   "noise_gr": 0.089,
+   "q6_evidence": {
+    "rel60_gr": 2.0536,
+    "rel60_carb": 3.2391,
+    "rel112_gr": 1.369,
+    "rel112_carb": 1.9267
+   },
+   "split": "train"
+  }
+ },
+ "train_026": {
+  "Q1_total_duration_Myr": 5.9,
+  "Q2_age_250m_Ma": 303.941,
+  "Q3_hiatuses_depth_m": [
+   98.32,
+   136.72,
+   240.25,
+   328.91
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   192.0,
+   266.0,
+   353.0,
+   348.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.509,
+  "Q5_obliquity_kyr": 36.1,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.48,
+   "CARB_factor": 0.66
+  },
+  "Q8": {
+   "wellA_depth_m": 240.25,
+   "wellB_depth_m": 275.91,
+   "duration_kyr": 353.0
+  },
+  "meta": {
+   "seed": 453881,
+   "depth_A_m": 384.0,
+   "depth_B_m": 461.5,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 3,
+   "sr_base": 7.87,
+   "noise_gr": 0.15,
+   "q6_evidence": {
+    "rel60_gr": 4.5733,
+    "rel60_carb": 6.293,
+    "rel112_gr": 1.5118,
+    "rel112_carb": 1.845
+   },
+   "split": "train"
+  }
+ },
+ "train_027": {
+  "Q1_total_duration_Myr": 5.95,
+  "Q2_age_250m_Ma": 303.962,
+  "Q3_hiatuses_depth_m": [
+   51.98,
+   115.07,
+   206.27,
+   296.45
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   331.0,
+   238.0,
+   222.0,
+   224.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.367,
+  "Q5_obliquity_kyr": 32.4,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.55,
+   "CARB_factor": 0.37
+  },
+  "Q8": {
+   "wellA_depth_m": 296.45,
+   "wellB_depth_m": 361.84,
+   "duration_kyr": 224.0
+  },
+  "meta": {
+   "seed": 775983,
+   "depth_A_m": 378.9,
+   "depth_B_m": 442.1,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 3,
+   "sr_base": 7.91,
+   "noise_gr": 0.141,
+   "q6_evidence": {
+    "rel60_gr": 0.0129,
+    "rel60_carb": 0.0212,
+    "rel112_gr": 0.0108,
+    "rel112_carb": 0.0255
+   },
+   "split": "train"
+  }
+ },
+ "train_028": {
+  "Q1_total_duration_Myr": 6.75,
+  "Q2_age_250m_Ma": 303.986,
+  "Q3_hiatuses_depth_m": [
+   58.74,
+   118.54,
+   173.21,
+   282.2,
+   333.02
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   158.0,
+   86.0,
+   93.0,
+   218.0,
+   294.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.931,
+  "Q5_obliquity_kyr": 35.5,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.34,
+   "CARB_factor": 0.61
+  },
+  "Q8": {
+   "wellA_depth_m": 282.2,
+   "wellB_depth_m": 333.18,
+   "duration_kyr": 218.0
+  },
+  "meta": {
+   "seed": 44990,
+   "depth_A_m": 400.3,
+   "depth_B_m": 469.1,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 3,
+   "sr_base": 6.9,
+   "noise_gr": 0.133,
+   "q6_evidence": {
+    "rel60_gr": 1.6941,
+    "rel60_carb": 2.5412,
+    "rel112_gr": 2.6453,
+    "rel112_carb": 3.8986
+   },
+   "split": "train"
+  }
+ },
+ "train_029": {
+  "Q1_total_duration_Myr": 7.39,
+  "Q2_age_250m_Ma": 304.314,
+  "Q3_hiatuses_depth_m": [
+   130.67,
+   183.94,
+   207.61,
+   355.93
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   166.0,
+   238.0,
+   245.0,
+   122.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.972,
+  "Q5_obliquity_kyr": 34.8,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.57,
+   "CARB_factor": 0.47
+  },
+  "Q8": {
+   "wellA_depth_m": 183.94,
+   "wellB_depth_m": 205.54,
+   "duration_kyr": 238.0
+  },
+  "meta": {
+   "seed": 712424,
+   "depth_A_m": 441.3,
+   "depth_B_m": 526.1,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 2,
+   "sr_base": 6.99,
+   "noise_gr": 0.109,
+   "q6_evidence": {
+    "rel60_gr": 1.989,
+    "rel60_carb": 0.0165,
+    "rel112_gr": 2.0806,
+    "rel112_carb": 0.0135
+   },
+   "split": "train"
+  }
+ },
+ "train_030": {
+  "Q1_total_duration_Myr": 5.5,
+  "Q2_age_250m_Ma": 303.891,
+  "Q3_hiatuses_depth_m": [
+   102.87,
+   170.68,
+   235.06,
+   264.47,
+   299.19
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   130.0,
+   358.0,
+   368.0,
+   370.0,
+   209.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.916,
+  "Q5_obliquity_kyr": 35.1,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.59,
+   "CARB_factor": 0.34
+  },
+  "Q8": {
+   "wellA_depth_m": 170.68,
+   "wellB_depth_m": 202.31,
+   "duration_kyr": 358.0
+  },
+  "meta": {
+   "seed": 554573,
+   "depth_A_m": 325.4,
+   "depth_B_m": 422.6,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 2,
+   "sr_base": 8.31,
+   "noise_gr": 0.143,
+   "q6_evidence": {
+    "rel60_gr": 0.013,
+    "rel60_carb": 0.0255,
+    "rel112_gr": 0.0205,
+    "rel112_carb": 0.021
+   },
+   "split": "train"
+  }
+ },
+ "train_031": {
+  "Q1_total_duration_Myr": 5.85,
+  "Q2_age_250m_Ma": 303.522,
+  "Q3_hiatuses_depth_m": [
+   155.71,
+   191.26,
+   250.11
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   237.0,
+   157.0,
+   323.0
+  ],
+  "Q4_mean_SR_cm_kyr": 7.135,
+  "Q5_obliquity_kyr": 33.5,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.45,
+   "CARB_factor": 0.54
+  },
+  "Q8": {
+   "wellA_depth_m": 155.71,
+   "wellB_depth_m": 173.82,
+   "duration_kyr": 237.0
+  },
+  "meta": {
+   "seed": 530331,
+   "depth_A_m": 417.4,
+   "depth_B_m": 443.2,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 4,
+   "sr_base": 7.85,
+   "noise_gr": 0.126,
+   "q6_evidence": {
+    "rel60_gr": 3.1258,
+    "rel60_carb": 0.0208,
+    "rel112_gr": 3.7271,
+    "rel112_carb": 0.0277
+   },
+   "split": "train"
+  }
+ },
+ "train_032": {
+  "Q1_total_duration_Myr": 7.39,
+  "Q2_age_250m_Ma": 303.414,
+  "Q3_hiatuses_depth_m": [
+   164.23,
+   236.26,
+   437.84,
+   469.17
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   217.0,
+   140.0,
+   279.0,
+   284.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.81,
+  "Q5_obliquity_kyr": 33.6,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.34,
+   "CARB_factor": 0.69
+  },
+  "Q8": {
+   "wellA_depth_m": 469.17,
+   "wellB_depth_m": 528.38,
+   "duration_kyr": 284.0
+  },
+  "meta": {
+   "seed": 441313,
+   "depth_A_m": 503.2,
+   "depth_B_m": 569.3,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 4,
+   "sr_base": 8.21,
+   "noise_gr": 0.13,
+   "q6_evidence": {
+    "rel60_gr": 3.8615,
+    "rel60_carb": 5.9606,
+    "rel112_gr": 1.7912,
+    "rel112_carb": 2.171
+   },
+   "split": "train"
+  }
+ },
+ "train_033": {
+  "Q1_total_duration_Myr": 6.54,
+  "Q2_age_250m_Ma": 303.988,
+  "Q3_hiatuses_depth_m": [
+   161.68,
+   221.99,
+   308.33,
+   335.7
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   169.0,
+   142.0,
+   242.0,
+   358.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.552,
+  "Q5_obliquity_kyr": 34.3,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.67,
+   "CARB_factor": 0.36
+  },
+  "Q8": {
+   "wellA_depth_m": 335.7,
+   "wellB_depth_m": 396.85,
+   "duration_kyr": 358.0
+  },
+  "meta": {
+   "seed": 29943,
+   "depth_A_m": 363.1,
+   "depth_B_m": 432.5,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 2,
+   "sr_base": 6.85,
+   "noise_gr": 0.119,
+   "q6_evidence": {
+    "rel60_gr": 1.7798,
+    "rel60_carb": 2.8742,
+    "rel112_gr": 1.263,
+    "rel112_carb": 1.8186
+   },
+   "split": "train"
+  }
+ },
+ "train_034": {
+  "Q1_total_duration_Myr": 7.26,
+  "Q2_age_250m_Ma": 302.921,
+  "Q3_hiatuses_depth_m": [
+   292.28,
+   379.36,
+   412.61,
+   437.62
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   177.0,
+   369.0,
+   342.0,
+   103.0
+  ],
+  "Q4_mean_SR_cm_kyr": 7.334,
+  "Q5_obliquity_kyr": 34.0,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.64,
+   "CARB_factor": 0.42
+  },
+  "Q8": {
+   "wellA_depth_m": 437.62,
+   "wellB_depth_m": 559.37,
+   "duration_kyr": 103.0
+  },
+  "meta": {
+   "seed": 168980,
+   "depth_A_m": 532.4,
+   "depth_B_m": 632.5,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 4,
+   "sr_base": 8.5,
+   "noise_gr": 0.107,
+   "q6_evidence": {
+    "rel60_gr": 2.7209,
+    "rel60_carb": 4.3097,
+    "rel112_gr": 0.9655,
+    "rel112_carb": 1.4752
+   },
+   "split": "train"
+  }
+ },
+ "train_035": {
+  "Q1_total_duration_Myr": 6.69,
+  "Q2_age_250m_Ma": 303.622,
+  "Q3_hiatuses_depth_m": [
+   62.57,
+   149.42,
+   259.12,
+   373.02
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   164.0,
+   200.0,
+   192.0,
+   110.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.784,
+  "Q5_obliquity_kyr": 36.0,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.56,
+   "CARB_factor": 0.46
+  },
+  "Q8": {
+   "wellA_depth_m": 62.57,
+   "wellB_depth_m": 69.85,
+   "duration_kyr": 164.0
+  },
+  "meta": {
+   "seed": 92354,
+   "depth_A_m": 453.9,
+   "depth_B_m": 486.3,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 3,
+   "sr_base": 7.77,
+   "noise_gr": 0.118,
+   "q6_evidence": {
+    "rel60_gr": 3.7882,
+    "rel60_carb": 0.0197,
+    "rel112_gr": 3.1559,
+    "rel112_carb": 0.033
+   },
+   "split": "train"
+  }
+ },
+ "train_036": {
+  "Q1_total_duration_Myr": 7.18,
+  "Q2_age_250m_Ma": 303.313,
+  "Q3_hiatuses_depth_m": [
+   200.93,
+   260.81,
+   318.82,
+   376.61,
+   469.98
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   269.0,
+   113.0,
+   146.0,
+   197.0,
+   346.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.991,
+  "Q5_obliquity_kyr": 35.4,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.63,
+   "CARB_factor": 0.34
+  },
+  "Q8": {
+   "wellA_depth_m": 200.93,
+   "wellB_depth_m": 183.22,
+   "duration_kyr": 269.0
+  },
+  "meta": {
+   "seed": 770232,
+   "depth_A_m": 501.9,
+   "depth_B_m": 573.3,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 4,
+   "sr_base": 8.22,
+   "noise_gr": 0.088,
+   "q6_evidence": {
+    "rel60_gr": 2.7518,
+    "rel60_carb": 0.0099,
+    "rel112_gr": 1.8916,
+    "rel112_carb": 0.0094
+   },
+   "split": "train"
+  }
+ },
+ "train_037": {
+  "Q1_total_duration_Myr": 5.33,
+  "Q2_age_250m_Ma": 304.02,
+  "Q3_hiatuses_depth_m": [
+   33.58,
+   224.09,
+   254.7,
+   289.83
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   322.0,
+   288.0,
+   225.0,
+   197.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.972,
+  "Q5_obliquity_kyr": 32.8,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.37,
+   "CARB_factor": 0.54
+  },
+  "Q8": {
+   "wellA_depth_m": 289.83,
+   "wellB_depth_m": 391.03,
+   "duration_kyr": 197.0
+  },
+  "meta": {
+   "seed": 40174,
+   "depth_A_m": 318.3,
+   "depth_B_m": 408.4,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 2,
+   "sr_base": 6.83,
+   "noise_gr": 0.116,
+   "q6_evidence": {
+    "rel60_gr": 2.9458,
+    "rel60_carb": 4.5702,
+    "rel112_gr": 1.0229,
+    "rel112_carb": 1.7284
+   },
+   "split": "train"
+  }
+ },
+ "train_038": {
+  "Q1_total_duration_Myr": 5.74,
+  "Q2_age_250m_Ma": 304.112,
+  "Q3_hiatuses_depth_m": [
+   124.82,
+   240.89,
+   288.36
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   245.0,
+   134.0,
+   101.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.932,
+  "Q5_obliquity_kyr": 35.2,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.4,
+   "CARB_factor": 0.69
+  },
+  "Q8": {
+   "wellA_depth_m": 240.89,
+   "wellB_depth_m": 270.4,
+   "duration_kyr": 134.0
+  },
+  "meta": {
+   "seed": 678079,
+   "depth_A_m": 340.5,
+   "depth_B_m": 371.6,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 4,
+   "sr_base": 6.73,
+   "noise_gr": 0.155,
+   "q6_evidence": {
+    "rel60_gr": 2.3067,
+    "rel60_carb": 3.5253,
+    "rel112_gr": 0.9704,
+    "rel112_carb": 1.2982
+   },
+   "split": "train"
+  }
+ },
+ "train_039": {
+  "Q1_total_duration_Myr": 5.41,
+  "Q2_age_250m_Ma": 304.198,
+  "Q3_hiatuses_depth_m": [
+   55.64,
+   98.26,
+   156.77,
+   239.71
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   107.0,
+   144.0,
+   137.0,
+   295.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.02,
+  "Q5_obliquity_kyr": 32.7,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.65,
+   "CARB_factor": 0.44
+  },
+  "Q8": {
+   "wellA_depth_m": 55.64,
+   "wellB_depth_m": 62.47,
+   "duration_kyr": 107.0
+  },
+  "meta": {
+   "seed": 369449,
+   "depth_A_m": 325.7,
+   "depth_B_m": 375.0,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 3,
+   "sr_base": 7.34,
+   "noise_gr": 0.115,
+   "q6_evidence": {
+    "rel60_gr": 2.6262,
+    "rel60_carb": 0.0567,
+    "rel112_gr": 1.9712,
+    "rel112_carb": 0.033
+   },
+   "split": "train"
+  }
+ },
+ "test_000": {
+  "Q1_total_duration_Myr": 5.27,
+  "Q2_age_250m_Ma": 303.788,
+  "Q3_hiatuses_depth_m": [
+   131.64,
+   200.39,
+   275.21
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   224.0,
+   108.0,
+   176.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.381,
+  "Q5_obliquity_kyr": 35.7,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.41,
+   "CARB_factor": 0.53
+  },
+  "Q8": {
+   "wellA_depth_m": 275.21,
+   "wellB_depth_m": 316.12,
+   "duration_kyr": 176.0
+  },
+  "meta": {
+   "seed": 892762,
+   "depth_A_m": 336.3,
+   "depth_B_m": 370.2,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 3,
+   "sr_base": 7.7,
+   "noise_gr": 0.151,
+   "q6_evidence": {
+    "rel60_gr": 1.8098,
+    "rel60_carb": 2.8965,
+    "rel112_gr": 1.0734,
+    "rel112_carb": 2.1267
+   },
+   "split": "test"
+  }
+ },
+ "test_001": {
+  "Q1_total_duration_Myr": 5.01,
+  "Q2_age_250m_Ma": 303.604,
+  "Q3_hiatuses_depth_m": [
+   159.73,
+   248.95,
+   320.81
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   95.0,
+   212.0,
+   321.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.822,
+  "Q5_obliquity_kyr": 35.2,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.55,
+   "CARB_factor": 0.4
+  },
+  "Q8": {
+   "wellA_depth_m": 320.81,
+   "wellB_depth_m": 343.61,
+   "duration_kyr": 321.0
+  },
+  "meta": {
+   "seed": 818380,
+   "depth_A_m": 341.8,
+   "depth_B_m": 384.4,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 4,
+   "sr_base": 7.43,
+   "noise_gr": 0.141,
+   "q6_evidence": {
+    "rel60_gr": 0.012,
+    "rel60_carb": 0.0136,
+    "rel112_gr": 0.0127,
+    "rel112_carb": 0.0238
+   },
+   "split": "test"
+  }
+ },
+ "test_002": {
+  "Q1_total_duration_Myr": 7.46,
+  "Q2_age_250m_Ma": 304.314,
+  "Q3_hiatuses_depth_m": [
+   107.69,
+   156.55,
+   204.37,
+   277.52
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   258.0,
+   269.0,
+   157.0,
+   226.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.592,
+  "Q5_obliquity_kyr": 35.4,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.56,
+   "CARB_factor": 0.3
+  },
+  "Q8": {
+   "wellA_depth_m": 156.55,
+   "wellB_depth_m": 172.01,
+   "duration_kyr": 269.0
+  },
+  "meta": {
+   "seed": 686838,
+   "depth_A_m": 417.1,
+   "depth_B_m": 476.7,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 3,
+   "sr_base": 6.82,
+   "noise_gr": 0.121,
+   "q6_evidence": {
+    "rel60_gr": 3.1023,
+    "rel60_carb": 0.009,
+    "rel112_gr": 1.128,
+    "rel112_carb": 0.0099
+   },
+   "split": "test"
+  }
+ },
+ "test_003": {
+  "Q1_total_duration_Myr": 7.5,
+  "Q2_age_250m_Ma": 303.092,
+  "Q3_hiatuses_depth_m": [
+   389.12,
+   461.15,
+   499.92
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   235.0,
+   164.0,
+   109.0
+  ],
+  "Q4_mean_SR_cm_kyr": 7.596,
+  "Q5_obliquity_kyr": 32.9,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.52,
+   "CARB_factor": 0.33
+  },
+  "Q8": {
+   "wellA_depth_m": 461.15,
+   "wellB_depth_m": 506.99,
+   "duration_kyr": 164.0
+  },
+  "meta": {
+   "seed": 475360,
+   "depth_A_m": 569.7,
+   "depth_B_m": 598.5,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 4,
+   "sr_base": 8.14,
+   "noise_gr": 0.151,
+   "q6_evidence": {
+    "rel60_gr": 5.9191,
+    "rel60_carb": 10.6875,
+    "rel112_gr": 2.0972,
+    "rel112_carb": 3.5565
+   },
+   "split": "test"
+  }
+ },
+ "test_004": {
+  "Q1_total_duration_Myr": 6.5,
+  "Q2_age_250m_Ma": 304.376,
+  "Q3_hiatuses_depth_m": [
+   48.18,
+   134.67,
+   186.33,
+   244.11,
+   337.4
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   145.0,
+   313.0,
+   274.0,
+   136.0,
+   153.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.018,
+  "Q5_obliquity_kyr": 35.3,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.44,
+   "CARB_factor": 0.66
+  },
+  "Q8": {
+   "wellA_depth_m": 134.67,
+   "wellB_depth_m": 163.17,
+   "duration_kyr": 313.0
+  },
+  "meta": {
+   "seed": 326019,
+   "depth_A_m": 391.2,
+   "depth_B_m": 489.0,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 2,
+   "sr_base": 6.97,
+   "noise_gr": 0.112,
+   "q6_evidence": {
+    "rel60_gr": 1.5199,
+    "rel60_carb": 2.1069,
+    "rel112_gr": 1.0814,
+    "rel112_carb": 1.3032
+   },
+   "split": "test"
+  }
+ },
+ "test_005": {
+  "Q1_total_duration_Myr": 6.17,
+  "Q2_age_250m_Ma": 303.561,
+  "Q3_hiatuses_depth_m": [
+   74.18,
+   240.09,
+   287.1,
+   340.92,
+   388.18
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   240.0,
+   270.0,
+   136.0,
+   202.0,
+   299.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.891,
+  "Q5_obliquity_kyr": 34.9,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.45,
+   "CARB_factor": 0.67
+  },
+  "Q8": {
+   "wellA_depth_m": 287.1,
+   "wellB_depth_m": 330.18,
+   "duration_kyr": 136.0
+  },
+  "meta": {
+   "seed": 41877,
+   "depth_A_m": 425.2,
+   "depth_B_m": 503.7,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 3,
+   "sr_base": 8.19,
+   "noise_gr": 0.085,
+   "q6_evidence": {
+    "rel60_gr": 4.4633,
+    "rel60_carb": 0.0226,
+    "rel112_gr": 2.6207,
+    "rel112_carb": 0.0272
+   },
+   "split": "test"
+  }
+ },
+ "test_006": {
+  "Q1_total_duration_Myr": 5.83,
+  "Q2_age_250m_Ma": 303.196,
+  "Q3_hiatuses_depth_m": [
+   169.73,
+   295.96,
+   340.19
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   255.0,
+   92.0,
+   100.0
+  ],
+  "Q4_mean_SR_cm_kyr": 8.045,
+  "Q5_obliquity_kyr": 36.3,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.67,
+   "CARB_factor": 0.38
+  },
+  "Q8": {
+   "wellA_depth_m": 169.73,
+   "wellB_depth_m": 184.46,
+   "duration_kyr": 255.0
+  },
+  "meta": {
+   "seed": 568303,
+   "depth_A_m": 469.0,
+   "depth_B_m": 505.4,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 4,
+   "sr_base": 8.35,
+   "noise_gr": 0.082,
+   "q6_evidence": {
+    "rel60_gr": 4.6616,
+    "rel60_carb": 6.8483,
+    "rel112_gr": 3.0673,
+    "rel112_carb": 4.4273
+   },
+   "split": "test"
+  }
+ },
+ "test_007": {
+  "Q1_total_duration_Myr": 6.34,
+  "Q2_age_250m_Ma": 304.403,
+  "Q3_hiatuses_depth_m": [
+   40.86,
+   87.63,
+   171.61,
+   218.45,
+   255.49
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   289.0,
+   90.0,
+   172.0,
+   165.0,
+   280.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.534,
+  "Q5_obliquity_kyr": 33.2,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.42,
+   "CARB_factor": 0.55
+  },
+  "Q8": {
+   "wellA_depth_m": 218.45,
+   "wellB_depth_m": 289.34,
+   "duration_kyr": 165.0
+  },
+  "meta": {
+   "seed": 413369,
+   "depth_A_m": 350.9,
+   "depth_B_m": 419.4,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 4,
+   "sr_base": 7.07,
+   "noise_gr": 0.128,
+   "q6_evidence": {
+    "rel60_gr": 0.0086,
+    "rel60_carb": 0.0172,
+    "rel112_gr": 0.01,
+    "rel112_carb": 0.0229
+   },
+   "split": "test"
+  }
+ },
+ "test_008": {
+  "Q1_total_duration_Myr": 6.76,
+  "Q2_age_250m_Ma": 304.1,
+  "Q3_hiatuses_depth_m": [
+   188.16,
+   226.25,
+   255.23
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   266.0,
+   130.0,
+   140.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.12,
+  "Q5_obliquity_kyr": 35.6,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.7,
+   "CARB_factor": 0.38
+  },
+  "Q8": {
+   "wellA_depth_m": 188.16,
+   "wellB_depth_m": 212.61,
+   "duration_kyr": 266.0
+  },
+  "meta": {
+   "seed": 336744,
+   "depth_A_m": 413.7,
+   "depth_B_m": 474.5,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 2,
+   "sr_base": 6.92,
+   "noise_gr": 0.118,
+   "q6_evidence": {
+    "rel60_gr": 1.9774,
+    "rel60_carb": 3.0067,
+    "rel112_gr": 1.5469,
+    "rel112_carb": 2.1449
+   },
+   "split": "test"
+  }
+ },
+ "test_009": {
+  "Q1_total_duration_Myr": 5.64,
+  "Q2_age_250m_Ma": 303.689,
+  "Q3_hiatuses_depth_m": [
+   47.45,
+   92.22,
+   144.12,
+   253.47,
+   302.78
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   183.0,
+   106.0,
+   350.0,
+   180.0,
+   367.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.252,
+  "Q5_obliquity_kyr": 36.3,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.53,
+   "CARB_factor": 0.47
+  },
+  "Q8": {
+   "wellA_depth_m": 92.22,
+   "wellB_depth_m": 116.92,
+   "duration_kyr": 106.0
+  },
+  "meta": {
+   "seed": 760318,
+   "depth_A_m": 352.6,
+   "depth_B_m": 473.1,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 2,
+   "sr_base": 8.21,
+   "noise_gr": 0.085,
+   "q6_evidence": {
+    "rel60_gr": 2.4345,
+    "rel60_carb": 0.0184,
+    "rel112_gr": 0.5884,
+    "rel112_carb": 0.0181
+   },
+   "split": "test"
+  }
+ },
+ "test_010": {
+  "Q1_total_duration_Myr": 7.09,
+  "Q2_age_250m_Ma": 303.212,
+  "Q3_hiatuses_depth_m": [
+   93.98,
+   265.82,
+   424.98
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   334.0,
+   314.0,
+   289.0
+  ],
+  "Q4_mean_SR_cm_kyr": 7.875,
+  "Q5_obliquity_kyr": 32.4,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.46,
+   "CARB_factor": 0.6
+  },
+  "Q8": {
+   "wellA_depth_m": 424.98,
+   "wellB_depth_m": 497.15,
+   "duration_kyr": 289.0
+  },
+  "meta": {
+   "seed": 179483,
+   "depth_A_m": 558.3,
+   "depth_B_m": 609.1,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 4,
+   "sr_base": 8.52,
+   "noise_gr": 0.113,
+   "q6_evidence": {
+    "rel60_gr": 5.4284,
+    "rel60_carb": 0.0356,
+    "rel112_gr": 1.7205,
+    "rel112_carb": 0.027
+   },
+   "split": "test"
+  }
+ },
+ "test_011": {
+  "Q1_total_duration_Myr": 6.2,
+  "Q2_age_250m_Ma": 304.122,
+  "Q3_hiatuses_depth_m": [
+   72.75,
+   152.31,
+   218.49,
+   285.96
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   177.0,
+   130.0,
+   274.0,
+   197.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.076,
+  "Q5_obliquity_kyr": 33.3,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.42,
+   "CARB_factor": 0.62
+  },
+  "Q8": {
+   "wellA_depth_m": 285.96,
+   "wellB_depth_m": 352.78,
+   "duration_kyr": 197.0
+  },
+  "meta": {
+   "seed": 145421,
+   "depth_A_m": 376.7,
+   "depth_B_m": 455.8,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 2,
+   "sr_base": 7.7,
+   "noise_gr": 0.143,
+   "q6_evidence": {
+    "rel60_gr": 2.0593,
+    "rel60_carb": 2.6256,
+    "rel112_gr": 2.1049,
+    "rel112_carb": 3.1994
+   },
+   "split": "test"
+  }
+ },
+ "test_012": {
+  "Q1_total_duration_Myr": 5.2,
+  "Q2_age_250m_Ma": 304.138,
+  "Q3_hiatuses_depth_m": [
+   32.62,
+   72.49,
+   281.2
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   220.0,
+   270.0,
+   313.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.786,
+  "Q5_obliquity_kyr": 35.8,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.55,
+   "CARB_factor": 0.34
+  },
+  "Q8": {
+   "wellA_depth_m": 281.2,
+   "wellB_depth_m": 322.56,
+   "duration_kyr": 313.0
+  },
+  "meta": {
+   "seed": 211319,
+   "depth_A_m": 300.9,
+   "depth_B_m": 347.7,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 4,
+   "sr_base": 7.45,
+   "noise_gr": 0.125,
+   "q6_evidence": {
+    "rel60_gr": 2.7215,
+    "rel60_carb": 4.1116,
+    "rel112_gr": 1.3114,
+    "rel112_carb": 2.1162
+   },
+   "split": "test"
+  }
+ },
+ "test_013": {
+  "Q1_total_duration_Myr": 6.76,
+  "Q2_age_250m_Ma": 304.172,
+  "Q3_hiatuses_depth_m": [
+   123.51,
+   181.56,
+   218.55,
+   331.0
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   351.0,
+   281.0,
+   336.0,
+   255.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.559,
+  "Q5_obliquity_kyr": 33.3,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.3,
+   "CARB_factor": 0.67
+  },
+  "Q8": {
+   "wellA_depth_m": 181.56,
+   "wellB_depth_m": 190.66,
+   "duration_kyr": 281.0
+  },
+  "meta": {
+   "seed": 531681,
+   "depth_A_m": 443.4,
+   "depth_B_m": 532.3,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 3,
+   "sr_base": 7.75,
+   "noise_gr": 0.143,
+   "q6_evidence": {
+    "rel60_gr": 1.7118,
+    "rel60_carb": 0.0097,
+    "rel112_gr": 1.9574,
+    "rel112_carb": 0.0113
+   },
+   "split": "test"
+  }
+ },
+ "test_014": {
+  "Q1_total_duration_Myr": 7.29,
+  "Q2_age_250m_Ma": 304.278,
+  "Q3_hiatuses_depth_m": [
+   115.53,
+   212.18,
+   249.38,
+   366.73
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   213.0,
+   155.0,
+   241.0,
+   177.0
+  ],
+  "Q4_mean_SR_cm_kyr": 5.869,
+  "Q5_obliquity_kyr": 35.1,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.41,
+   "CARB_factor": 0.63
+  },
+  "Q8": {
+   "wellA_depth_m": 249.38,
+   "wellB_depth_m": 293.17,
+   "duration_kyr": 241.0
+  },
+  "meta": {
+   "seed": 84674,
+   "depth_A_m": 427.9,
+   "depth_B_m": 500.1,
+   "n_hiatus_A": 4,
+   "n_hiatus_B": 4,
+   "sr_base": 7.22,
+   "noise_gr": 0.124,
+   "q6_evidence": {
+    "rel60_gr": 0.0078,
+    "rel60_carb": 0.0193,
+    "rel112_gr": 0.0051,
+    "rel112_carb": 0.0144
+   },
+   "split": "test"
+  }
+ },
+ "test_015": {
+  "Q1_total_duration_Myr": 6.45,
+  "Q2_age_250m_Ma": 303.327,
+  "Q3_hiatuses_depth_m": [
+   96.21,
+   212.37,
+   295.5,
+   369.7,
+   406.61
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   82.0,
+   232.0,
+   94.0,
+   211.0,
+   116.0
+  ],
+  "Q4_mean_SR_cm_kyr": 7.089,
+  "Q5_obliquity_kyr": 34.0,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.42,
+   "CARB_factor": 0.55
+  },
+  "Q8": {
+   "wellA_depth_m": 212.37,
+   "wellB_depth_m": 243.05,
+   "duration_kyr": 232.0
+  },
+  "meta": {
+   "seed": 994132,
+   "depth_A_m": 457.2,
+   "depth_B_m": 505.0,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 3,
+   "sr_base": 8.26,
+   "noise_gr": 0.144,
+   "q6_evidence": {
+    "rel60_gr": 1.5474,
+    "rel60_carb": 0.0121,
+    "rel112_gr": 0.789,
+    "rel112_carb": 0.0174
+   },
+   "split": "test"
+  }
+ },
+ "test_016": {
+  "Q1_total_duration_Myr": 6.53,
+  "Q2_age_250m_Ma": 303.272,
+  "Q3_hiatuses_depth_m": [
+   90.53,
+   371.56,
+   457.88
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   285.0,
+   111.0,
+   370.0
+  ],
+  "Q4_mean_SR_cm_kyr": 7.511,
+  "Q5_obliquity_kyr": 35.0,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.31,
+   "CARB_factor": 0.59
+  },
+  "Q8": {
+   "wellA_depth_m": 457.88,
+   "wellB_depth_m": 511.38,
+   "duration_kyr": 370.0
+  },
+  "meta": {
+   "seed": 467566,
+   "depth_A_m": 490.4,
+   "depth_B_m": 556.4,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 2,
+   "sr_base": 8.35,
+   "noise_gr": 0.1,
+   "q6_evidence": {
+    "rel60_gr": 2.8061,
+    "rel60_carb": 4.1981,
+    "rel112_gr": 0.869,
+    "rel112_carb": 1.1689
+   },
+   "split": "test"
+  }
+ },
+ "test_017": {
+  "Q1_total_duration_Myr": 5.94,
+  "Q2_age_250m_Ma": 303.522,
+  "Q3_hiatuses_depth_m": [
+   195.63,
+   295.08,
+   348.86
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   226.0,
+   339.0,
+   365.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.39,
+  "Q5_obliquity_kyr": 36.5,
+  "Q6": {
+   "p60_autogenic": false,
+   "p112_autogenic": false,
+   "carb_has_60kyr_peak": true,
+   "carb_has_112kyr_peak": true
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.48,
+   "CARB_factor": 0.65
+  },
+  "Q8": {
+   "wellA_depth_m": 295.08,
+   "wellB_depth_m": 304.17,
+   "duration_kyr": 339.0
+  },
+  "meta": {
+   "seed": 997752,
+   "depth_A_m": 379.5,
+   "depth_B_m": 442.6,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 3,
+   "sr_base": 7.71,
+   "noise_gr": 0.111,
+   "q6_evidence": {
+    "rel60_gr": 5.3496,
+    "rel60_carb": 7.8028,
+    "rel112_gr": 2.941,
+    "rel112_carb": 3.9818
+   },
+   "split": "test"
+  }
+ },
+ "test_018": {
+  "Q1_total_duration_Myr": 5.86,
+  "Q2_age_250m_Ma": 304.026,
+  "Q3_hiatuses_depth_m": [
+   42.81,
+   133.98,
+   192.06
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   145.0,
+   285.0,
+   217.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.745,
+  "Q5_obliquity_kyr": 33.8,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "GR",
+   "GR_factor": 0.6,
+   "CARB_factor": 0.44
+  },
+  "Q8": {
+   "wellA_depth_m": 133.98,
+   "wellB_depth_m": 162.8,
+   "duration_kyr": 285.0
+  },
+  "meta": {
+   "seed": 617129,
+   "depth_A_m": 395.3,
+   "depth_B_m": 416.8,
+   "n_hiatus_A": 3,
+   "n_hiatus_B": 3,
+   "sr_base": 6.94,
+   "noise_gr": 0.085,
+   "q6_evidence": {
+    "rel60_gr": 2.5415,
+    "rel60_carb": 0.0476,
+    "rel112_gr": 1.9272,
+    "rel112_carb": 0.0263
+   },
+   "split": "test"
+  }
+ },
+ "test_019": {
+  "Q1_total_duration_Myr": 6.48,
+  "Q2_age_250m_Ma": 304.233,
+  "Q3_hiatuses_depth_m": [
+   90.9,
+   128.23,
+   205.27,
+   233.97,
+   348.98
+  ],
+  "Q3_hiatuses_duration_kyr": [
+   113.0,
+   236.0,
+   287.0,
+   283.0,
+   104.0
+  ],
+  "Q4_mean_SR_cm_kyr": 6.566,
+  "Q5_obliquity_kyr": 36.2,
+  "Q6": {
+   "p60_autogenic": true,
+   "p112_autogenic": true,
+   "carb_has_60kyr_peak": false,
+   "carb_has_112kyr_peak": false
+  },
+  "Q7": {
+   "exists": true,
+   "stronger_in": "CARB",
+   "GR_factor": 0.39,
+   "CARB_factor": 0.7
+  },
+  "Q8": {
+   "wellA_depth_m": 128.23,
+   "wellB_depth_m": 132.17,
+   "duration_kyr": 236.0
+  },
+  "meta": {
+   "seed": 867455,
+   "depth_A_m": 425.5,
+   "depth_B_m": 494.3,
+   "n_hiatus_A": 5,
+   "n_hiatus_B": 4,
+   "sr_base": 7.56,
+   "noise_gr": 0.128,
+   "q6_evidence": {
+    "rel60_gr": 2.4248,
+    "rel60_carb": 0.0115,
+    "rel112_gr": 1.4736,
+    "rel112_carb": 0.0202
+   },
+   "split": "test"
+  }
+ }
+}
